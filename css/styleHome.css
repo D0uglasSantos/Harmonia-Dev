@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cabeçalho */
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+    background: #F6F9FF;
+}
+
+header {
+    width: 100%;
+    height: 300px;
+    background: #FAF2D7;
+}
+
+header img {
+    padding-top: 25px;
+}
+
+.content {
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+.search-input {
+
+    width: 700px;
+    height: 45px;
+    border: none;
+    border-radius: 4px 0px 0px 4px;
+    text-indent: 10px;
+}
+
+.search-button {
+    width: 130px;
+    height: 50px;
+    border-radius: 0px 4px 4px 0px;
+    border: none;
+    background: #252e27;
+    color: #FAF2D7;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: 0.2s ease;
+}
+
+.search-button:hover {
+    background: #252E27c5;
+    color: #FAF2D7;
+}
+
+
+nav {
+    width: 100%;
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand {
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 13px;
+    cursor: pointer;
+}
+
+nav ul li a {
+    color: #252E27;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #252e27c5;
+}
+
+nav ul button {
+    border: 1px solid #252E27;
+    background: #252e27;
+    padding: 8px 25px;
+    margin-left: 30px;
+    color: #FAF2D7;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav ul button:hover {
+    transition: background, color 0.6s;
+    background: #252E27c5;
+    color: #FAF2D7;
+}
+
+.brand img {
+    height: 230px;
+    position: relative;
+}
+
+/* Catalogo de Produtos */
+
+.card-item {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards {
+    width: 73%;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cards h3 {
+    padding-top: 25px;
+}
+
+.cards img {
+    height: 222px;
+    width: 222px;
+    max-width: 80%;
+    border-radius: 15px;
+}
+
+.card {
+    border: 1px solid #252e27;
+    position: relative;
+    width: 320px;
+    height: 410px;
+    background: #FAF2D7;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 25px;
+
+}
+
+.card-item button {
+    width: 90%;
+    padding: 15px 0px;
+    border: none;
+    background: #252E27;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-top: 35px;
+  }
+  
+  .card-item button:hover {
+    background: #252E27c5;
+    color: #252e27;
+  }
