@@ -17,10 +17,19 @@ header {
     width: 100%;
     height: 300px;
     background: #FAF2D7;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 100px;
 }
 
 header img {
-    padding-top: 25px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin-left: 280px;
+    height: auto;
+    width: 270px;
+    
 }
 
 .content {
