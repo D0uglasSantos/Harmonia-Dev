@@ -26,7 +26,7 @@ header {
 header img {
   padding-top: 70px;
   padding-bottom: 20px;
-  margin-left: 280px;
+  margin-left: 325px;
   height: auto;
   width: 270px;
 }
@@ -150,7 +150,7 @@ nav ul button:hover {
 }
 
 .cards {
-  width: 73%;
+  width: 75%;
   margin: 0 auto;
   padding-top: 50px;
   display: flex;
@@ -160,12 +160,17 @@ nav ul button:hover {
 }
 
 .cards h3 {
-  padding-top: 25px;
+  padding-top: 20px;
+}
+
+.preco{
+  margin-top: 5px;
+  font-style: italic;
 }
 
 .cards img {
-  height: 222px;
-  width: 222px;
+  height: 220px;
+  width: 220px;
   max-width: 80%;
   border-radius: 15px;
 }
@@ -174,7 +179,7 @@ nav ul button:hover {
   border: 1px solid #252e27;
   position: relative;
   width: 320px;
-  height: 410px;
+  height: 420px;
   background: #faf2d7;
   border-radius: 15px;
   overflow: hidden;
@@ -182,8 +187,8 @@ nav ul button:hover {
 }
 
 .card-item button {
-  width: 90%;
-  padding: 15px 0px;
+  width: 80%;
+  padding: 10px 0px;
   border: none;
   background: #252e27;
   border-radius: 4px;
