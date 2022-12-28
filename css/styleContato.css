@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Cabeçalho */
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+    background: #f6f9ff;
+  }
+  
+  header {
+    width: 100%;
+    height: 400px;
+    background: #faf2d7;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 150px;
+    padding-top: 100px;
+  }
+  
+  header img {
+    padding-top: 70px;
+    padding-bottom: 20px;
+    margin-left: 325px;
+    height: auto;
+    width: 270px;
+  }
+  
+  .content {
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .search-input {
+    width: 780px;
+    height: 45px;
+    border: none;
+    border-radius: 4px 0px 0px 4px;
+    text-indent: 10px;
+  }
+  
+  .search-button {
+    width: 130px;
+    height: 45px;
+    border-radius: 0px 4px 4px 0px;
+    border: none;
+    background: #252e27;
+    color: #faf2d7;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: 0.2s ease;
+  }
+  
+  .search-button:hover {
+    background: #252e27c5;
+    color: #faf2d7;
+  }
+  
+
+nav {
+    width: 100%;
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .brand {
+    cursor: pointer;
+  }
+  
+  .menu{
+    padding: 15px;
+    margin: 15px;
+    justify-content: center;
+  }
+  
+  .menu .submenu{
+    display: none;
+    margin: 10px;
+    padding-top: 3px;
+    padding-left: 15px;
+  }
+  
+  .menu li:hover .submenu{
+    display: block;
+  }
+
+  
+nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  nav ul li {
+    list-style: none;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  nav ul li a {
+    color: #252e27;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: #252e27c5;
+  }
+  
+  nav ul button {
+    border: 1px solid #252e27;
+    background: #252e27;
+    padding: 8px 25px;
+    margin-left: 30px;
+    color: #faf2d7;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  nav ul button:hover {
+    transition: background, color 0.6s;
+    background: #252e27c5;
+    color: #faf2d7;
+  }
+  
+  .brand img {
+    height: 230px;
+    position: relative;
+  }
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    /* min-width: 100vh; */
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px 35px;
+    background:#faf2d7 ;
+    width: 600px;
+    height: 615px;
+    margin: 30px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+section h1{
+    color:#252e27 ;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form label{
+    color: #252e27;
+    font-size: 18px;
+    margin-bottom:4px;
+}
+
+form input{
+    padding: 8px;
+    outline: none;
+    border: 0;
+    margin-bottom:10px;
+    font-size: 15px;
+    transition:all 0.5s ;
+}
+
+form input:focus{
+    border-radius: 15px;
+}
+
+form textarea{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+
+form textarea:focus{
+    border-radius: 15px;
+}
+
+form button{
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: transparent;
+    border: 2px solid #252e27;
+    color:#252e27 ;
+    transition: all 1s;
+}
+
+form button:hover{
+    background: #fff;
+    color:#252e27;
+    border-radius: 15px;
+}
+
+/*Página - Obrigado pelo contato*/
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #252e27;
+    flex-direction: column;
+}
+
+.text{
+    font-size: 35px;
+    color: #faf2d7;
+    margin-bottom: 30px;
+}
+
+.paragrafo{
+    color: #faf2d7;
+    margin-bottom: 45px;
+}
+
+.btn{
+    padding: 15px 55px;
+    background:transparent;
+    border: 2px solid #fff;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: all 1s;
+    font-weight: bold;
+}
+
+.btn:hover{
+    border-radius: 15px;
+    background: #faf2d7;
+    color: #252e27;
+}
